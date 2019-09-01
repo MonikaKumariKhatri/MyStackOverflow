@@ -15,7 +15,7 @@ const Footer = styled(Header)`
 function App() {
   return (
     <Container>
-      <Header as="h1" icon>
+      <Header as="h1" icon textAlign="center">
         <Icon name="settings" />
         My Stack Overflow
         <Header.Subheader>
